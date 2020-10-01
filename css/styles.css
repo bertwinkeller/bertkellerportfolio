@@ -44,3 +44,20 @@ background-image: url('../img/icons/back.png');
 .titleMessage .heading .sub{
     font-size: 30px;
 }
+
+.section{
+    padding: 100px 0;
+    background-color: #D0CDD7;
+}
+
+.myImg{
+   width: 70%;
+}
+
+.bioText{
+    margin-top: 10px;
+}
+
+.skillsSection{
+background-color: #604D53;
+}

@@ -47,7 +47,7 @@ background-image: url('../img/icons/back.png');
 
 .section{
     padding: 100px 0;
-    background-color: #D0CDD7;
+    background-color: #D6CBC1;
 }
 
 .myImg{
@@ -59,5 +59,15 @@ background-image: url('../img/icons/back.png');
 }
 
 .skillsSection{
-background-color: #604D53;
+background-color: #DB324D;
+}
+
+.techText{
+    color: #fff;
+}
+
+body{
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: #333;
 }

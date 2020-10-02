@@ -59,7 +59,7 @@ background-image: url('../img/icons/back.png');
 }
 
 .skillsSection{
-background-color: #DB324D;
+background-color: #2D2A32;
 }
 
 .techText{
@@ -74,4 +74,37 @@ body{
 
 .skillName{
     color: white;
+    text-align: center;
+    margin-left: 25px;
+
+}
+
+.chart{
+    position: relative;
+    width: 152px;
+    height: 152px;
+    display: inline-block;
+    text-align: center;
+}
+
+.skill{
+    text-align: center;
+    color: #fff;
+    margin-left: 10px;
+}
+.chart canvas{
+    position: absolute; 
+    left: 0;
+    top: 0;
+}
+
+.chart .percent{
+    color: #fff;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.chart .percent:after{
+    content: '%';
 }

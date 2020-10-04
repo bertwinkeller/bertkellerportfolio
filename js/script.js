@@ -33,18 +33,27 @@ $(document).ready(function () {
         }
     })
 
-    $('.chart').easyPieChart({
-        //your options goes here
-        easing: 'easeInOut',
-        barColor: "#fff",
-        trackColor: false,
-        scaleColor: false,
-        lineWidth: 4,
-        size: 152,
-        onStep: function(from, to, percent){
-            $(this.el).find(
-                '.percent'
-            ).text(Math.round(percent))
+
+
+    const skillsTopOffset = $(".skillsSection").offset().top
+
+    $(window).scroll(function() {
+        if(window.pageYOffset > skillsTopOffset - $(window).height() + 200){
+
+            $('.chart').easyPieChart({
+                //your options goes here
+                easing: 'easeInOut',
+                barColor: "#fff",
+                trackColor: false,
+                scaleColor: false,
+                lineWidth: 4,
+                size: 152,
+                onStep: function(from, to, percent){
+                    $(this.el).find(
+                        '.percent'
+                    ).text(Math.round(percent))
+                }
+            })
         }
     })
 })

@@ -57,6 +57,17 @@ $(document).ready(function () {
         }
     })
 
+    $("#nav li a").click(function(e) {
+        e.preventDefault()
+
+
+        const targetElement = $(this).attr("href")
+        const targetPosition = $(targetElement).offset().top
+        $("html, body").animate({
+            scrollTop: targetPosition - 50
+        }, "slow")
+    })
+
 
     const nav = $("#nav")
     const navTop = nav.offset().top
@@ -68,8 +79,11 @@ $(document).ready(function () {
         const body = $("body")
 
         if($(window).scrollTop() >= navTop){
+            body.css("padding-top", nav.outerHeight() + "px")
             body.addClass("fixedNav")
         }else{
+            body.css("padding-top", 0)
+
             body.removeClass("fixedNav")
         }
     }

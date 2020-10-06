@@ -116,3 +116,31 @@ background-color: #D6CBC1;
 .subheading{
     font-size: 24px;
 }
+
+.contactButton{
+    color: #333 ;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #333;
+    border-radius: 2px;
+}
+
+.contactButton:hover {
+    text-decoration: none;
+    color: #D6CBC1;
+    background-color: #333 ;
+}
+
+#portfolio{
+    background-color: #333;
+}
+
+.copyrightSection{
+    background-color: #D6CBC1;
+    color: #333;
+    padding: 30px 5px;
+}
+.copyrightSection p {
+    margin: 0;
+}

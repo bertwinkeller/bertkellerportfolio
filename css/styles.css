@@ -144,3 +144,13 @@ background-color: #D6CBC1;
 .copyrightSection p {
     margin: 0;
 }
+
+.fixedNav #nav{
+    position: fixed;
+    top: 0 
+}
+
+#nav{
+    z-index: 10;
+    width: 100%
+}

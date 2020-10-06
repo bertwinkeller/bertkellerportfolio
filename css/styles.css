@@ -108,3 +108,11 @@ body{
 .chart .percent:after{
     content: '%';
 }
+
+.contactSection{
+background-color: #D6CBC1;
+}
+
+.subheading{
+    font-size: 24px;
+}

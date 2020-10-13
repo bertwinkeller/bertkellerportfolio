@@ -59,7 +59,7 @@ background-image: url('../img/icons/back.png');
 }
 
 .skillsSection{
-background-color: #2D2A32;
+background-color: #333;
 }
 
 .techText{
@@ -282,4 +282,18 @@ h4.title{
 .card-img{
     height: 250px;
     width: 500px;
+}
+
+.fa{
+    padding-right: 15px;
+}
+
+a{
+    color: inherit;
+
+}
+
+
+a.hover:hover{
+    text-decoration: none;
 }

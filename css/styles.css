@@ -242,7 +242,7 @@ ul.filters > li.active > a{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #222;
     flex-direction: column;
     box-sizing: border-box;
     padding: 30px;
@@ -275,7 +275,7 @@ h4.title{
 }
 
 .card-btn:hover{
-    background-color: #28bea8;
+    background-color: #222;
     color: #fff;
 }
 

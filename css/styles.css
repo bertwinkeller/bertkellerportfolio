@@ -52,6 +52,7 @@ background-image: url('../img/icons/back.png');
 
 .myImg{
    width: 70%;
+   border: solid #333 1px;
 }
 
 .bioText{

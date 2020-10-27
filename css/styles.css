@@ -299,3 +299,20 @@ a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
+
+#resume{
+    width: 75%;
+    height: auto;
+}
+
+.git{
+
+    margin-left: 10px;
+
+}
+
+.dmr{
+
+    margin-right: 10px;
+
+}

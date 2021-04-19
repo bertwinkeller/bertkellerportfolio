@@ -64,7 +64,7 @@ background-color: #333;
 }
 
 .techText{
-    color: #fff;
+    color: #D6CBC1;
 }
 
 .titleFont{
@@ -321,7 +321,7 @@ a, a:hover, a:focus, a:active {
 
 
 .skill-text{
-    color: #fff; 
+    color: #D6CBC1 !important; 
     margin-top: 10px;
     font-size: 26px;
 }
